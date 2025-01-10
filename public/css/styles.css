@@ -1,12 +1,12 @@
 @font-face {
-  font-family: 'MSPGothic';
-  src: url('../fonts/MSPGothic.ttf');
+  font-family: 'terminus';
+  src: url('../fonts/terminus.ttf');
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-    font-family: MSPGothic;
+    font-family: terminus;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -15,3 +15,31 @@ body {
 header {
   border: 1px solid 
 }
+
+.side-box {
+  border: 1px solid;
+  margin: 5px;
+}
+
+.side-box-title {
+  border-bottom: 1px solid;
+  padding: 0 5px;
+}
+
+.side-box-content {
+  margin: 5px;
+}
+
+.side-link {
+  width: 100%;
+  display: block;
+}
+
+ul, .side-box-content {
+  margin: 0;
+  padding: 2px;
+  list-style: none;
+}
+
+
+

@@ -8,9 +8,20 @@
 </head>
 <body>
     {{ partial "header.html" . }}
+    <table>
+      <tr>
+        <td>
+    <div class="sidebar">
+      {{ partial "sidebar.html" . }}
+    </div>
+        </td>
+        <td>
     <main>
         {{ block "main" . }}{{ end }}
     </main>
+        </td>
+      </tr>
+    </table>
     {{ partial "footer.html" . }}
 </body>
 </html>
