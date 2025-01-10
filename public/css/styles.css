@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'MSPGothic';
+  src: url('../fonts/MSPGothic.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    font-family: MSPGothic;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  border: 1px solid 
+}
