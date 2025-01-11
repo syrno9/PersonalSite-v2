@@ -8,17 +8,15 @@
 </head>
 <body>
     {{ partial "header.html" . }}
-    <table>
+    <table style="margin: auto">
       <tr>
-        <td>
-    <div class="sidebar">
-      {{ partial "sidebar.html" . }}
-    </div>
+        <td width="150px">
+            {{ partial "sidebar.html" . }}
         </td>
-        <td>
-    <main>
-        {{ block "main" . }}{{ end }}
-    </main>
+        <td style="vertical-align: top;">
+          <main>
+              {{ block "main" . }}{{ end }}
+          </main>
         </td>
       </tr>
     </table>
