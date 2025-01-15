@@ -34,6 +34,34 @@ h3 {
   margin: 5px 0;
 }
 
+main {
+  width: 770px;
+}
+
+footer {
+  margin: 10px;
+}
+
+.box {
+  padding: 0;
+  background-color: #182f3f9e;
+  margin: 10px;
+  width: 100%;
+  border: 1px solid #4c7f7f;
+}
+
+.box-title {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px;
+  background: linear-gradient(to bottom, #2a3f4f 0%, #213642 48%, #172634 53%, #121f29 100%);
+  border-bottom: 1px solid #4c7f7f;
+}
+
+.box-content {
+  padding: 5px;
+}
+
 .sidebar-button {
   border: 1px solid #84bbf3;
   padding: 5px;

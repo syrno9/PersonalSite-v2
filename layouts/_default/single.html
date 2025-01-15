@@ -1,6 +1,8 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-<div class="content">
-    {{ .Content }}
+<div class="box">
+<div class="box-title">{{ .Title }}</div>
+<div class="box-content">
+    {{ .Content | safeHTML }} 
+</div>
 </div>
 {{ end }}

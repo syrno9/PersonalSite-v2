@@ -1,11 +1,29 @@
 {{ define "main" }}
-<div class="title">{{ .Title }}</div>
-<div class="content">
+<div class="box">
+<div class="box-title">{{ .Title }}</div>
+<div class="box-content">
     {{ .Content }}
+<h2>Pages</h2>
+<table style="width: 100%; border-collapse: collapse;">
+    <tbody>
+        {{ $count := 0 }}
+        {{ range .Pages }}
+        {{ if eq $count 0 }}
+        <tr>
+        {{ end }}
+            <td style="border: 1px solid #84bbf3; padding: 8px;"><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+        {{ $count = add $count 1 }}
+        {{ if eq $count 2 }}
+        </tr>
+        {{ $count = 0 }}
+        {{ end }}
+        {{ end }}
+        {{ if eq $count 1 }}
+            <td style="border: 1px solid #84bbf3; padding: 8px;"></td>
+        </tr>
+        {{ end }}
+    </tbody>
+</table>
 </div>
-<ul>
-    {{ range .Pages }}
-    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-    {{ end }}
-</ul>
+</div>
 {{ end }}
