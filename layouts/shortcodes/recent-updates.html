@@ -1,0 +1,9 @@
+<div class="updates-list">
+    {{ range .Site.Data.updates }}
+    <div class="update-item">
+        <div class="update-date">{{ .date }}</div>
+        <div class="update-time">{{ .time }}</div>
+        <div class="update-text">{{ .text }}</div>
+    </div>
+    {{ end }}
+</div> 

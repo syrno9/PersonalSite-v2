@@ -1,8 +1,7 @@
-{{ "<!-- ENTERING layouts/_default/single.html -->" | safeHTML }}
-<div class="box">
-    <div class="box-title">{{ .Title }}</div>
-    <div class="box-content">
-        {{ .Content | safeHTML }}
-    </div>
-</div>
-{{ "<!-- LEAVING layouts/_default/single.html -->" | safeHTML }}
+{{ define "main" }}
+<article class="stuff">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+</article>
+
+{{ end }} 

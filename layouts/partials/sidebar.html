@@ -1,20 +1,44 @@
-<h3>Navigation</h3>
-<a class="sidebar-button" href="/">Home</a>
-<a class="sidebar-button" href="/info">Info</a>
-<a class="sidebar-button" href="/links">Links</a>
-<a class="sidebar-button" href="/contact">Contact</a>
-<h3>Projects</h3>
-<a class="sidebar-button" href="/h3">hikari3.ch</a>
-<a class="sidebar-button" href="/comsock">ComSock</a>
-<a class="sidebar-button" href="/glorp">Glorp</a>
-<h3>Other Sites</h3>
-<a class="sidebar-button" target="_blank" href="https://non-fish.net">non-fish.net</a>
-<a class="sidebar-button" target="_blank" href="https://figamin.net">figamin.net</a>
-<hr>
-<a target="_blank" href="https://www.hikari3.ch"><img class="banner" src="/imgs/hikari3.png"></a>
-<br>
-<a target="_blank" href="https://www.animegalleries.net"><img class="banner" src="/imgs/agnet4.png"></a>
-<hr>
-Art attribution:<br>
-<a href="https://danbooru.donmai.us/posts/1258641" target="_blank">Logo art</a><br>
-<a href="https://danbooru.donmai.us/posts/341137" target="_blank">Home art</a>
+<aside class="stuff sidebar">
+    <div class="profile">
+        <img src="/img/chibi-cirno.png">
+    </div>
+
+    <div class="sidebar-section">
+        <h3>- syrno.net -</h3>
+        <nav class="sidebar-nav">
+            <a href="/">Home</a>
+            <a href="/projects">Projects</a>
+            <a href="/links">Links</a>
+            <a href="/about">About</a>
+            <a href="/software">Software</a>
+        </nav>
+    </div>
+
+
+    <div class="sidebar-section">
+        <h3>Projects</h3>
+        <nav class="sidebar-nav">
+            {{ range first 5 (where .Site.RegularPages "Section" "projects") }}
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            {{ end }}
+        </nav>
+    </div>
+
+    <div class="sidebar-section">
+        <h3>Statistics</h3>
+        <div class="stats">
+            Projects: {{ len (where .Site.RegularPages "Section" "projects") }}<br>
+            Links: {{ len (where .Site.RegularPages "Section" "links") }}
+        </div>
+    </div>
+
+    <div class="sidebar-section">
+        <h4>Find Me</h4>
+        <nav class="social-links">
+            <a href="https://github.com/syrno9" target="_blank">GitHub</a>
+            <a href="https://twitter.com/syrno9000" target="_blank">Twitter</a>
+            <a href="mailto:syrno@hikari3.ch">Email</a>
+        </nav>
+
+    </div>
+</aside> 
