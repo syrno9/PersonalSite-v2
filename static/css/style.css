@@ -357,3 +357,45 @@ article {
     display: inline-block;
     margin-top: 10px;
 }
+
+.link-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.link-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid #1a4d66;
+    text-decoration: none;
+    color: #99ddff;
+}
+
+.link-item:hover {
+    background: rgba(26, 77, 102, 0.3);
+}
+
+.link-title {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.favicon {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+}
+
+.link-description {
+    color: #e1f2f7;
+    font-size: 0.9em;
+    text-align: right;
+    max-width: 50%;
+}

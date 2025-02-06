@@ -1,0 +1,19 @@
+{{ $section := .Get 0 }}
+{{ $title := .Get 1 }}
+
+<h2>{{ $title }}</h2>
+<div class="link-section">
+    {{ range (index .Site.Data.links $section) }}
+    <a href="{{ .url }}" class="link-item" target="_blank">
+        <div class="link-title">
+            {{ if .customIcon }}
+            <img src="{{ .customIcon }}" class="favicon" alt="">
+            {{ else }}
+            <img src="https://www.google.com/s2/favicons?domain={{ .url }}&sz=32" class="favicon" alt="">
+            {{ end }}
+            <span>{{ .title }}</span>
+        </div>
+        <span class="link-description">{{ .description }}</span>
+    </a>
+    {{ end }}
+</div> 
