@@ -14,6 +14,9 @@ profiles:
     url: "https://steamcommunity.com/id/syrno9000"
     description: "Vidya gaems"
     customIcon: "/img/icons/steam.png"
+  - title: "Vidlii"
+    url: "https://vidlii.com/user/syrno"
+    description: "I just reupload videos I like"
 
 websites:
   - title: "hikari3.ch"
@@ -22,6 +25,17 @@ websites:
   - title: "syrno.net"
     url: "https://syrno.net"
     description: "You're currently here"
+
+friends:
+  - title: "Non-fish.net"
+    url: "https://non-fish.net"
+    description: "He's a fish"
+  - title: "figamin.net"
+    url: "https://figamin.net"
+    description: "Wapchan admin"
+  - title: "arithefirst.com"
+    url: "https://arithefirst.com"
+    description: "Cool dev"
 
 recommended:
   - title: "Heyuri"
@@ -57,3 +71,6 @@ recommended:
   - title: "Vimm's Lair"
     url: "https://vimm.net"
     description: "My preferred place to recieve most ROMs" 
+  - title: "InstallGentoo Wiki"
+    url: "https://wiki.installgentoo.com/wiki/Main_Page"
+    description: "It's the /g/ wiki"

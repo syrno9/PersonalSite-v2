@@ -1,5 +1,5 @@
 ---
-title: "syrno.net"
+title: "syrno's webpage"
 ---
 
 <pre>
@@ -19,7 +19,6 @@ My username is syrno (seer-no) / syrno9 or syrno9000 on some sites, but my real 
 
 ### About This Site
 Here, I'll be sharing stuff I'm working on, among other stuff I find interesting.<br>
-To learn more about me, visit the [about](/about) page.
 
 ### Current Updates
 {{< recent-updates >}}

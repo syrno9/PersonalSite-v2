@@ -6,5 +6,7 @@ title: "Links"
 
 {{< link-section "websites" "My Websites" >}}
 
-{{< link-section "recommended" "Recommended Sites" >}}
+{{< link-section "friends" "Friend's Sites" >}}
+
+{{< link-section "recommended" "Sites I like" >}}
 
