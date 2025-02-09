@@ -13,4 +13,8 @@ projectUrl: "https://github.com/syrno9/PersonalSite-v2"
 
 ---
 
-Project content goes here... 
+<hr>
+
+# About this site
+
+It's a static site built with Hugo.

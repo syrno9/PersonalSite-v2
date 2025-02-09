@@ -9,5 +9,8 @@ stack:
 projectUrl: "https://github.com/syrno9/ComSock"
 
 ---
+<hr>
 
-Project content goes here... 
+# About Communication Socket
+
+It's an IRC client with no features but one day I will add all the cool features
