@@ -1,8 +1,8 @@
 body {
-    font-family: "Tahoma", "Arial", sans-serif;
+    /*! font-family: "Tahoma", "Arial", sans-serif; */
     font-size: 13px;
     background: 
-    rgb(1, 4, 6) url('/img/cirno.png') no-repeat;
+    rgb(1, 4, 6);
     background-size: 700px;
     color: #e1f2f7;
     margin: 0;
@@ -38,7 +38,6 @@ header h1 {
     font-size: 24px;
     font-weight: bold;
     font-style: italic;
-    font-family: "Futura", "Century New Gothic", "Arial", Serif;
     color: #234e64;
 }
 
@@ -49,7 +48,7 @@ header nav ul li .dropdown {
     padding: 0;
     min-width: 80px;
     z-index: 10;
-    top: 30px;
+    top: 33px;
     right: -1px;
 }
 
@@ -86,12 +85,22 @@ header nav ul li {
     font-weight: bold;
     border: 1px solid #258;
     background: rgba(7,28,48,0.737255);
-    width: 90px;
+    width: 100px;
 }
+
+header nav ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 header nav a {
     text-decoration: none;
     color: #e1f2f7;
 } 
+
+footer {
+    text-align: center;
+}
 
 main {
     width: 770px;
@@ -99,8 +108,6 @@ main {
 }
 
 .box {
-    background: rgba(7, 28, 48, 0.66);
-    border: 1px solid #258;
     margin: 5px;
 }
 
@@ -108,14 +115,12 @@ main {
   padding: 5px;
   font-size: 16px;
   font-weight: bold;
-  font-family: "Futura", "Century New Gothic", "Arial", Serif;
 }
 
 .box-title2 {
     padding: 5px;
     font-size: 20px;
-    font-family: "Futura", "Century New Gothic", "Arial", Serif;
-  }
+}
 
 .box-content {
   padding: 15px 5px;
