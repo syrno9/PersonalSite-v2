@@ -127,6 +127,10 @@ main {
   padding-top: 0px;
 }
 
+.box-content img {
+    margin: 10px;
+}
+
 .snowflake {
     
     color: #fff;

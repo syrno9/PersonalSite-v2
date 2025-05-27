@@ -1,3 +1,8 @@
 baseURL = 'https://syrno.net/'
 languageCode = 'en-us'
 title = 'syrno.net'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
