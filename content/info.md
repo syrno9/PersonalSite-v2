@@ -20,4 +20,3 @@ Hello, my name is Travis. I'm an almost 19 year old college student studying com
 </td>
 </tr>
 </table>
-</div>
