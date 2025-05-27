@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="blog-list">
+    <h1>Blog Posts <a href="/blog/index.xml"><img src="/img/rss.svg" width="20"></a></h1>
+    
+    {{ range .Pages.ByDate.Reverse }}
+    <article class="blog-post">
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <div class="post-meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+            {{ with .Params.tags }}
+            <div class="tags">
+                {{ range . }}
+                <a href="/tags/{{ . }}" class="tag">{{ . }}</a>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+        {{ if .Description }}
+        <p class="description">{{ .Description }}</p>
+        {{ end }}
+        <a href="{{ .RelPermalink }}" class="read-more">Read more</a>
+    </article>
+    {{ end }}
+</div>
+{{ end }} 

@@ -6,3 +6,13 @@ title = 'syrno.net'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[params]
+  blogTitle = "Blog"
+  blogDescription = "Random bits of information I find interesting"
+
+[outputs]
+  section = ["HTML", "RSS"]
+
+[taxonomies]
+  tag = "tags"
