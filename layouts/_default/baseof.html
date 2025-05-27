@@ -1,27 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>{{ .Title }} - syrno.net</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <meta charset="UTF-8">
+    <title>{{ .Title }} - {{ .Site.Title }}</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <div class="container">
-        {{ partial "header.html" . }}
-        <table class="main-table">
-            <tr>
-                <td class="sidebar-cell">
-                    {{ partial "sidebar.html" . }}
-                </td>
-                <td class="content-cell">
-                    <main>
-                        {{ block "main" . }}{{ end }}
-                    </main>
-                </td>
-            </tr>
-        </table>
-        {{ partial "footer.html" . }}
-    </div>
+    {{ partial "header.html" . }}
+    <main>
+        {{ block "main" . }}{{ end }}
+    </main>
     <div class="snowflakes" aria-hidden="true">
         <div class="snowflake">
           <div class="inner"><img src="/img/snow.png"></div>

@@ -1,15 +1,61 @@
 <header>
-    <div class="site-title">
-        <h1>syrno.net</h1>
-        <div class="subtitle">⑨x developer</div>
-    </div>
-    <div class="support-links">
-        <a href="https://github.com/syrno9" target="_blank">GitHub</a>
-        <a href="/projects/">Projects</a>
-    </div>
-</header>
-<nav class="main-nav stuff">
-    {{ range .Site.Menus.main }}
-    <a href="{{ .URL }}" class="nav-link">{{ .Name }}</a>
-    {{ end }}
-</nav> 
+    <h1><a href="/">syrno.net</a></h1>
+    <nav>
+        <ul>
+            <li><a href="/"><img src="/img/home.gif" width="20" height="20"> Home</a></li>
+            <li>
+                <span style="cursor:pointer;"><img src="/img/cirno.gif" width="28" height="20"> Personal</span>
+                <ul class="dropdown">
+                    <li><a href="/blog/"><img src="/img/writing.gif" width="16" height="16"> Blog</a></li>
+                    <li><a href="/info/"><img src="/img/info.gif" width="16" height="16"> Info</a></li>
+                </ul>
+            </li>
+            <li>
+                <span style="cursor:pointer;"><img src="/img/software.gif" width="20" height="20"> Software</span>
+                <ul class="dropdown">
+                    <li>
+                        <span style="cursor:pointer;"><img src="/img/pc_freak.gif" width="16" height="16"> Projects</span>
+                        <ul class="dropdown nested-dropdown">
+                            <li><a href="/projects/hikari3/"><img src="/img/h3.png" width="16" height="16"> hikari3</a></li>
+                            <li><a href="/projects/comsock/"><img src="/img/comsock.png" width="16" height="16"> ComSock</a></li>
+                            <li><a href="/projects/fish/"><img src="/img/fish.png" width="16" height="16"> FISH Engine</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/stuff/"><img src="/img/linux.gif" width="16" height="16"> Stuff I use</a></li>
+                </ul>
+            </li>
+            <li>
+                <span style="cursor:pointer;"><img src="/img/cursor.gif" width="20" height="20"> Links</span>
+                <ul class="dropdown">
+                    <li><a href="https://youtube.com/@syrno9"><img src="/img/youtube.png" width="16" height="16"> YouTube</a></li>
+                    <li><a href="https://x.com/syrno9000"><img src="/img/twitter.png" width="16" height="16"> Twitter</a></li>
+                    <li><a href="https://steamcommunity.com/id/syrno9000"><img src="/img/steam.png" width="16" height="16"> Steam</a></li>
+                    <li><a href="https://github.com/syrno9"><img src="/img/github.png" width="16" height="16"> GitHub</a></li>
+                    <li><a href="https://vidlii.com/user/syrno"><img src="/img/vidlii.png" width="16" height="16"> VidLii</a></li>
+                    <li>
+                        <span style="cursor:pointer;"><img src="/img/star.gif" width="20" height="20">Favorites</span>
+                        <ul class="dropdown nested-dropdown">
+                            <li><a href="https://heyuri.net">Heyuri</a></li>
+                            <li><a href="https://wapchan.org">Wapchan</a></li>
+                            <li><a href="https://sheepishpatio.net">SheepishPatio</a></li>
+                            <li><a href="https://kissu.moe">Kissu.moe</a></li>
+                            <li><a href="https://afternoon.dynu.com/">The Post Office</a></li>
+                            <li><a href="https://sushigirl.us">SushiChan</a></li>
+                            <li><a href="https://forum.agoraroad.com/index.php">Agora Road</a></li>
+                            <li><a href="https://vimm.net">Vimm's Lair</a></li>
+                            <li><a href="https://romhacking.net">ROMhacking.net</a></li>
+                            <li><a href="https://mugenarchive.com/">mugen ARCHIVE</a></li>
+                            <li><a href="https://39chan.moe">39chan</a></li>
+
+
+
+
+
+
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header> 

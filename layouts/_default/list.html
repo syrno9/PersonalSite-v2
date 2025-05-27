@@ -1,32 +1,3 @@
 {{ define "main" }}
-<div class="stuff">
-    <h1>{{ .Title }}</h1>
-    {{ .Content }}
-    
-    {{ range .Pages }}
-    <div class="project-list-item stuff">
-        <div class="project-header">
-            {{ with .Params.image }}
-            <img src="{{ . }}" alt="{{ $.Page.Title }}" class="project-image">
-            {{ end }}
-            <div class="project-title">
-                <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-                {{ with .Params.description }}
-                <p class="project-description">{{ . }}</p>
-                {{ end }}
-            </div>
-        </div>
-        {{ with .Params.stack }}
-        <div class="project-stack">
-            {{ range . }}
-            <span class="stack-item">{{ . }}</span>
-            {{ end }}
-        </div>
-        {{ end }}
-        {{ with .Params.projectUrl }}
-        <a href="{{ . }}" target="_blank" class="project-link">Visit Project →</a>
-        {{ end }}
-    </div>
-    {{ end }}
-</div>
+{{ .Content }}
 {{ end }} 
