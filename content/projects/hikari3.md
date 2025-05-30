@@ -9,7 +9,7 @@ title: "hikari3/Kōshi"
 <p>hikari3 Index</p>
 </td>
 <td style="vertical-align: top">
-<h1><a href="https://hikari3.ch">hikari3.ch</a></h1>
+<a href="https://hikari3.ch"><img src="/img/h3logo.png" style="margin: 10px 0" width="300"></a>
 <p><i>"A very comfy imageboard for people that like to take it easy."</i></p><br>
 <p>hikari3 is a site I started in May 2023. Initially using LynxChan, we recently switched to our own board software developed in-house after the site turned 2 years old.</p>
 </td>

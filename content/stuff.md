@@ -26,6 +26,9 @@ For my first couple years of using Arch, I either just stuck with using Trinity 
 ### Browser
 The first browser I ever used as a kid was Firefox 3 I think (cause that's what my dad had installed on the computer), but I was just using Google Chrome by the time I was 10 like most people. After getting into Linux, I started using Firefox again since it seemed like that was everyone's goto browser. Since then, I haven't really used anything else, but I did use Brave for a bit, but I'm just too used to Firefox based stuff now instead. In mid-late 2024, I switched to Librewolf after seeing good things about it on hikari3.ch/t/.
 
+### Text Editor
+Neovim with NVChad.
+
 # My phone
 A tiny 3-inch Unihertz Jelly 2.
 
