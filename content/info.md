@@ -7,6 +7,12 @@ Hello, my name is Travis. I'm an almost 19 year old college student studying com
 
 <p>When I was 16/almost 17, I started <a href="/projects/hikari3">hikari3.ch</a> (yes, underage b&), through which I learned a lot more about system administration and the web in general.</p>
 <p>This was the first time I've ever actually operated a site on the web, and while I don't really want to go into web development as a career, I think the experience I got from it was valueable, and very fun.</p>
+
 <br>
 <p>After a bit, I became motivated to actually make a personal site, so I made this site sometime in March-April 2024 I think.</p>
 <p>Basically, what this site is going to be used for is me dumping random bits of information I find interesting.</p>
+
+<hr>
+
+
+My favorite movies of all time are the BTTF trilogy. The music I usually listen to is either electronic or rock. My favorite band are the Descendents. My favorite anime is FLCL. My favorite vidya gaem of all time is Sonic 3 & Knuckles. My favorite Touhou games are EOSD and Hisoutensoku.
