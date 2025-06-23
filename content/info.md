@@ -2,7 +2,7 @@
 title: "Info"
 ---
 
-Hello, my name is Travis. I'm an almost 19 year old college student studying computer science in California. After playing on my brother's modded PSP with a bunch of emulators and ROMs in 2011 when I was 5, I started becoming more interested in technology. When I was 11, I tried making NES ROM hacks using programs other people made, after that, I wanted to learn to code my own stuff.
+Hello, my name is Travis. I'm an almost 19 year old college student studying computer science in California. After playing on my brother's modded PSP with a bunch of emulators and ROMs in 2011 when I was 5, I started becoming more interested in technology. When I was 11, I tried making NES ROM hacks using programs other people made, after that, I wanted to learn to program my own stuff.
 <hr>
 
 <p>When I was 16/almost 17, I started <a href="/projects/hikari3">hikari3.ch</a> (yes, underage b&), through which I learned a lot more about system administration and the web in general.</p>
